@@ -1,0 +1,38 @@
+# Eclipse
+.classpath
+.project
+.settings/
+*/bin/
+
+.vinfo
+
+#osp runIdlc skip common pojo
+*/src/main/java/com/vip/order/common/pojo/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+out
+en=java
+# Mac
+.DS_Store
+
+# Maven
+/log/
+target/
+
+#Gradle
+.gradle
+build/
+*/build/
+
+# OSP
+osp-ofc-api-service-api/src/main/html/
+osp-ofc-api-service-api/src/main/php/
+/bin/
+classes/
+osp-ofc-api-service-api/pom.xml
+osp-ofc-api-service/pom.xml
+osp-ofc-api-test/pom.xml
